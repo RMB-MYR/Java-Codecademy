@@ -1,0 +1,8 @@
+public class MultAndDivide {
+	public static void main(String[] args) {   
+		double subtotal = 30;
+    double tax = 0.0875;
+    double total = subtotal * tax + subtotal;
+    System.out.println(total);
+	}
+}
